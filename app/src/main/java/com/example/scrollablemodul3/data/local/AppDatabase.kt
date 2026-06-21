@@ -9,7 +9,7 @@ import com.example.scrollablemodul3.data.local.dao.GameDao
 import com.example.scrollablemodul3.data.local.entity.CategoryEntity
 import com.example.scrollablemodul3.data.local.entity.GameEntity
 
-@Database(entities = [CategoryEntity::class, GameEntity::class], version = 2, exportSchema = false)
+@Database(entities = [CategoryEntity::class, GameEntity::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun categoryDao(): CategoryDao
     abstract fun gameDao(): GameDao
@@ -21,7 +21,6 @@ abstract class AppDatabase : RoomDatabase() {
         fun getDatabase(context: Context): AppDatabase {
             return Instance ?: synchronized(this) {
                 Room.databaseBuilder(context, AppDatabase::class.java, "game_database")
-                    .fallbackToDestructiveMigration(true)
                     .build()
                     .also { Instance = it }
             }

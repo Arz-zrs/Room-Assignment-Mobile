@@ -41,7 +41,6 @@ object DataSeeder {
                 imageResId = R.drawable.crosscode,
                 detailImageResId = R.drawable.crosscode_detail,
                 steamUrl = "https://store.steampowered.com/app/368340/CrossCode/",
-                rating = 4.5f,
                 categoryId = rpgId
             )
         )
@@ -54,7 +53,6 @@ object DataSeeder {
                 imageResId = R.drawable.hades2,
                 detailImageResId = R.drawable.hades2_detail,
                 steamUrl = "https://store.steampowered.com/app/1145350/Hades_II/",
-                rating = 4.8f,
                 categoryId = actionId
             )
         )
@@ -67,7 +65,6 @@ object DataSeeder {
                 imageResId = R.drawable.nms,
                 detailImageResId = R.drawable.nms_detail,
                 steamUrl = "https://store.steampowered.com/app/275850/No_Mans_Sky/",
-                rating = 4.2f,
                 categoryId = adventureId
             )
         )
@@ -80,7 +77,6 @@ object DataSeeder {
                 imageResId = R.drawable.coe33,
                 detailImageResId = R.drawable.coe33_detail,
                 steamUrl = "https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/",
-                rating = 4.0f,
                 categoryId = rpgId
             )
         )
@@ -93,7 +89,6 @@ object DataSeeder {
                 imageResId = R.drawable.sekiro,
                 detailImageResId = R.drawable.sekiro_detail,
                 steamUrl = "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
-                rating = 4.9f,
                 categoryId = actionId
             )
         )

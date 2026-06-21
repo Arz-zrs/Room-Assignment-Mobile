@@ -27,7 +27,6 @@ data class GameEntity(
     val imageResId: Int,
     val detailImageResId: Int,
     val steamUrl: String,
-    val rating: Float,
     val releaseDate: Long,
     val categoryId: Int
 )
@@ -41,7 +40,6 @@ fun GameEntity.toDomain() = Game(
     imageResId = imageResId,
     detailImageResId = detailImageResId,
     steamUrl = steamUrl,
-    rating = rating,
     releaseDate = releaseDate,
     categoryId = categoryId
 )
@@ -55,7 +53,6 @@ fun Game.toEntity() = GameEntity(
     imageResId = imageResId,
     detailImageResId = detailImageResId,
     steamUrl = steamUrl,
-    rating = rating,
     releaseDate = releaseDate,
     categoryId = categoryId
 )

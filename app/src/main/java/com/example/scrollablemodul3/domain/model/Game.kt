@@ -9,7 +9,6 @@ data class Game(
     val imageResId: Int,
     val detailImageResId: Int,
     val steamUrl: String,
-    val rating: Float = 0.0f,
     val releaseDate: Long = 0L,
     val categoryId: Int
 )
